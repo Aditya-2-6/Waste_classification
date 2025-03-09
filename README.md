@@ -18,10 +18,16 @@ This project implements an automated waste segregation system using YOLO (You On
    ```bash
    pip install -r requirements.txt
    ```
-3. Ensure you have a compatible version of Python (e.g., Python 3.7+).
+3. Run the Application
+   ```bash
+   streamlit run app.py
+   ```
+4. Ensure you have a compatible version of Python (e.g., Python 3.7+).
 
 ## Dataset
 The model is trained on a dataset of waste images categorized into different types. You can use an existing dataset or create your own by collecting images and labeling them using annotation tools like LabelImg.
+
+Dataset Link: https://universe.roboflow.com/ai-project-i3wje/waste-detection-vqkjo/model/3
 
 ## Usage
 
@@ -40,5 +46,3 @@ The model is trained on a dataset of waste images categorized into different typ
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
-## License
-This project is licensed under the MIT License.
